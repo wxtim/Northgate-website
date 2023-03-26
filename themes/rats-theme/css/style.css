@@ -1,0 +1,79 @@
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background: #a78555;
+	margin-bottom: 100px;
+	background-image: url("leaves.jpg");
+        background-repeat: repeat;
+	font-family: IM Fell English, Times;
+        font-size: 20px;
+}
+
+p {
+	font-size: 20px;
+}
+
+
+.navbar-header h1 {
+    font-family: 'IM Fell English SC', Times;
+    color: #360;
+}
+
+a, a:hover {
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+h3 {margin: 0;}
+*:focus {outline: none;}
+.navbar-nav > .active a {
+	color: #000 !important;
+	background-color: #eee !important;
+}
+
+.spacer20 {height: 20px;}
+.padding20 {padding: 20px;}
+.rounded5 {border-radius: 20px;}
+
+.grayFont {color: #444;}
+.greenBackground {
+    background: #eee;
+    background-image: url("leaves.jpg");    
+}
+.whiteBackground {background: #eee;}
+
+.navbar a h1 {color: #360;}
+
+ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
+	border: 0;
+	border-radius: 0;
+	background-color: #eee;
+}
+
+ul.nav.navbar-nav.navbar-right li.active a {background-color: #fff;}
+
+.navbar li a {
+	border: 0;
+	color: #eee;
+	display: block;
+	text-transform: uppercase;
+	padding: 25px 20px 25px 25px;
+}
+
+
+footer a, footer a:hover, .navbar a {
+	color: #222;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	background: #eee;
+}
